@@ -1,0 +1,21 @@
+@echo off
+setlocal
+
+REM Set the repository URL
+set REPO_URL=https://github.com/Zakaria-Falah/tpgraphql
+
+REM Add and commit changes
+git add .
+git commit -m "Automated commit"
+
+REM Push to GitHub
+git push -u origin master
+
+REM Check the exit code to determine success or failure
+if %errorlevel% equ 0 (
+    echo Push successful
+) else (
+    echo Error: Failed to push changes
+)
+
+endlocal
