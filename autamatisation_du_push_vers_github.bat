@@ -10,11 +10,11 @@ echo Commit initial...
 git commit -m "Premier commit"
 
 REM Remplacez ces valeurs par vos informations GitHub
-set USERNAME=RedaChahid
-set REPO=betatec
+set USERNAME=Zakaria-Falah
+set REPO=tpgraphql
 
 echo Ajout du repository distant...
-git remote add origin https://github.com/%USERNAME%/%REPO%.git
+git remote add origin https://github.com/Zakaria-Falah/tpgraphql
 
 echo Push vers GitHub...
 git push -u origin master
